@@ -35,20 +35,14 @@ Create a folder named data/ at the root of your project.
 
 Download the dataset from Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/emotions
 After downloading, extract the dataset (usually a .csv file).
-Rename the file to emotions.csv and move it into the data/ folder so the path is:
-project-root/
-├── data/
-│   └── emotions.csv
+Rename the file to emotions.csv and move it into the data/ folder.
+
 
 
 In the same data/ folder, download the books dataset from:
 https://www.kaggle.com/datasets/elvinrustam/books-dataset
 After downloading and extracting, locate the file named something like booksdata.csv.
-Rename the file to books.csv and place it in the same data/ directory:
-project-root/
-├── data/
-│   ├── emotions.csv
-│   └── books.csv
+Rename the file to books.csv and place it in the same data/ directory.
 
 
 
