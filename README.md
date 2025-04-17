@@ -27,9 +27,30 @@ The emotion detection model identifies six key emotions:
 
 pip install -r requirements.txt
 
-##  Prepare data
+##  Dataset Setup
 
-Place your emotions.csv and books.csv files in the data/ directory.
+To run this project, you need to manually download the dataset and place it in the correct folder:
+Create a folder named data/ at the root of your project.
+
+
+Download the dataset from Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/emotions
+After downloading, extract the dataset (usually a .csv file).
+Rename the file to emotions.csv and move it into the data/ folder so the path is:
+project-root/
+├── data/
+│   └── emotions.csv
+
+
+In the same data/ folder, download the books dataset from:
+https://www.kaggle.com/datasets/elvinrustam/books-dataset
+After downloading and extracting, locate the file named something like booksdata.csv.
+Rename the file to books.csv and place it in the same data/ directory:
+project-root/
+├── data/
+│   ├── emotions.csv
+│   └── books.csv
+
+
 
 ##  Train the emotion model
 
